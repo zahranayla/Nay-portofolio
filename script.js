@@ -7,8 +7,8 @@ let openBurgerBar = false; // false = tidak dilihat; true = dilihat
 burgerBar.addEventListener("click", function () {
   openBurgerBar = !openBurgerBar;
   if (openBurgerBar) {
-    navBar.style.backgroundColor = "rgb(10, 31, 61)";
-    navBar.style.color = "#f6f6f6";
+    navBar.style.backgroundColor = "rgba(156, 168, 158, 100)";
+    navBar.style.color = "#0b2b26";
     listNavMobile.style.display = "block"; // display: block;
   } else {
     navBar.style.backgroundColor = "transparent";
@@ -19,8 +19,8 @@ burgerBar.addEventListener("click", function () {
 
 document.addEventListener("scroll", () => {
   if (window.scrollY >= 667) {
-    navBar.style.backgroundColor = "rgb(10, 31, 61)";
-    navBar.style.color = "#f6f6f6";
+    navBar.style.backgroundColor = "rgba(156, 168, 158, 100)";
+    navBar.style.color = "#0b2b26";
     navBar.style.transition = "all 0.5s ease-in-out";
     navBar.style.padding = "9px 25px";
     listNavMobile.style.top = "54px";
